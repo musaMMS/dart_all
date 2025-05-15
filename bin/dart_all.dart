@@ -81,5 +81,4 @@ void main() {
   person['city']='Rangpur';
 
   print(person.isNotEmpty);
-
 }
