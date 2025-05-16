@@ -1,4 +1,4 @@
-void main() {
+// void main() {
 //for {initialization,condition,increment/decriment}
 
 //   for(int i =5; i <=100 ;i++ )
@@ -23,10 +23,10 @@ void main() {
 //   while(i <=5);
 
 // for-in loop
-
-  List<String> name = ["musa", "Jim", "alif", "Ruba"];
-
-  for (String nam in name) {
-    print("name:$name");
-  }
-}
+//
+//   List<String> name = ["musa", "Jim", "alif", "Ruba"];
+//
+//   for (String nam in name) {
+//     print("name:$name");
+//   }
+// }
