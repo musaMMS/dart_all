@@ -1,4 +1,34 @@
+//
+// addTwoNumber (int x,double y){
+//   print(x+y);
+// }
+// class MyClass{
+//   var MyName="Musa";
+//   var Alphabet =['A','b','C','D'];
+//   addTwoNumber (int x,int y){
+//    print(x+y);
+//   }
+//   addThreeNumber (int x,int y,int z){
+//     print(x+y+z);
+//   }
+// }
+
+//encapsulation
+class BankAccount{
+  double _blance =0;
+  void deposite(double amount){
+    if (amount >0){
+      _blance+= amount;
+    }
+  }
+  double getBlance(){
+    return _blance;
+  }
+}
+
 void main() {
+
+
 //
 //   // Groabole List
 // //   var city =['Dhaka','Gaibadha','Rnagpur'];
@@ -184,5 +214,26 @@ void main() {
     i=i+1;
   }while(i<100);
    */
-  //Function part
+  //Function par
+/*
+pramiter pass
+ */
+    //
+    // addTwoNumber(4, 5.0);
+    // addTwoNumber(8, 55);
+    //
+// class maikin
+// //object making
+// var obj =new MyClass(); //new add korte hbe na korle hbe optional
+//   obj.addTwoNumber(20, 30);
+//   obj.addThreeNumber(5, 6, 8);
+//
+// print(obj.MyName);
+// print(obj.Alphabet[0]);
+
+BankAccount account = BankAccount();
+account.deposite(1000);
+print(account.getBlance());
+
 }
+
